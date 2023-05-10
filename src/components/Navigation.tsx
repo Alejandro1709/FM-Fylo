@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navigation = () => {
   return (
-    <header className='m-[24px] flex flex-row items-center justify-between md:m-[45px]'>
+    <header className='z-40 m-[24px] flex flex-row items-center justify-between md:m-[45px]'>
       <Link href='/'>
         <Image src='/logo.svg' alt='logo' width={100} height={100} draggable={false} />
       </Link>

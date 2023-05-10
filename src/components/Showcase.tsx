@@ -2,7 +2,7 @@ import Item from './Item';
 
 const Showcase: React.FC = () => {
   return (
-    <section className='grid grid-cols-1 place-content-center gap-20 md:mx-20 md:grid-cols-2'>
+    <section className='grid grid-cols-1 place-content-center gap-20 bg-[#171F2B] md:mx-20 md:grid-cols-2'>
       <Item
         title='Access your files, anywhere'
         description='The ability to use a smartphone, tablet, or computer to access your account means your files follow you

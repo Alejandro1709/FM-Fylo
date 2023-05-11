@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Tutorial: React.FC = () => {
   return (
-    <section className='flex flex-col items-center justify-center gap-8 md:mx-20 md:flex-row md:gap-20'>
-      <Image src='/illustration-stay-productive.png' alt='cov' height={400} width={400} />
+    <section className='flex flex-col items-center justify-center gap-8 md:mx-20 md:flex-row md:gap-40'>
+      <Image src='/illustration-stay-productive.png' alt='cov' height={440} width={440} />
       <div className='flex max-w-sm flex-col items-center justify-center gap-6 md:max-w-md'>
         <h1 className='text-3xl font-medium'>Stay productive, wherever you are</h1>
         <p>
